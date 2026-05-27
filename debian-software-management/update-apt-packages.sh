@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-sudo apt-get -y update
-sudo apt-get -y upgrade
-sudo apt-get -y autoremove
-sudo apt-get -y autoclean
+sudo apt-get update -y && \
+sudo apt-get upgrade -y && \
+sudo apt-get autoremove -y && \
+sudo apt-get autoclean -y
 
 exit 0
